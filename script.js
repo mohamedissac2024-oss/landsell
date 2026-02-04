@@ -21,9 +21,6 @@ const landsData = [
         owner: "halima alas"
     },
     {
-        
-    },
-    {
         id: 4,
         title: "Agricultural Farm for camels and cows",
         description: "Rich fertile soil perfect for farming or agricultural development. Includes water rights.",
