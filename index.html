@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandSell - Find Your Perfect Land</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-icon">🌍</span>
+                <span class="logo-text">LandSell</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#lands">Lands</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Find Your Perfect Land</h1>
+            <p>Discover premium land properties at unbeatable prices. Your dream property awaits!</p>
+            <a href="#lands" class="cta-button">Browse Lands</a>
+        </div>
+    </section>
+
+    <section class="lands-section" id="lands">
+        <div class="container">
+            <h2 class="section-title">Featured Lands</h2>
+            <div class="lands-grid" id="landsGrid">
+                <!-- Land cards will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LandSell</h3>
+                    <p>Your trusted partner in finding the perfect land property.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#lands">Lands</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@landsell.com</p>
+                    <p>Phone: +1 234 567 8900</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 LandSell. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for displaying details -->
+    <div class="modal" id="detailModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <h3 id="modalTitle">Land Details</h3>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
